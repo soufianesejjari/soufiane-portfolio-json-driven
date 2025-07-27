@@ -3,11 +3,15 @@ import { portfolioData } from "@/data/portfolio";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { Github, ExternalLink, Image as ImageIcon } from "lucide-react";
+import { Github, ExternalLink, Image as ImageIcon, ChevronDown, ChevronUp } from "lucide-react";
+import { useState } from "react";
 
 export const Projects = () => {
   const { language, t } = useLanguage();
   const { projects } = portfolioData;
+  const [showAll, setShowAll] = useState(false);
+  
+  const displayedProjects = showAll ? projects : projects.slice(0, 3);
 
   return (
     <section id="projects" className="py-20">
@@ -19,7 +23,7 @@ export const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {projects.map((project, index) => (
+          {displayedProjects.map((project, index) => (
             <Card key={index} className="bg-card-gradient border-border/50 hover:border-primary/20 transition-all duration-300 shadow-card hover:shadow-elegant group overflow-hidden">
               <div className="aspect-video bg-muted/20 relative overflow-hidden">
                 {project.img ? (
@@ -76,6 +80,28 @@ export const Projects = () => {
             </Card>
           ))}
         </div>
+
+        {projects.length > 3 && (
+          <div className="text-center mt-8">
+            <Button 
+              variant="outline" 
+              onClick={() => setShowAll(!showAll)}
+              className="border-primary/20 hover:bg-primary/10"
+            >
+              {showAll ? (
+                <>
+                  <ChevronUp className="w-4 h-4 mr-2" />
+                  {language === 'fr' ? 'Voir moins' : 'Show Less'}
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="w-4 h-4 mr-2" />
+                  {language === 'fr' ? `Voir tous (${projects.length})` : `Show All (${projects.length})`}
+                </>
+              )}
+            </Button>
+          </div>
+        )}
       </div>
     </section>
   );

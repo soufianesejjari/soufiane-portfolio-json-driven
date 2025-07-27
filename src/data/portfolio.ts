@@ -22,8 +22,8 @@ export const portfolioData = {
     ]
   },
   "summary": {
-    "fr": "Ingénieur Full Stack et Data Scientist expérimenté, actuellement en Master en Ingénierie Informatique et Analyse de Données. Spécialisé dans le développement d'applications complètes et l'analyse de données avancée avec une passion pour l'IA et les technologies émergentes.",
-    "en": "Experienced Full Stack Engineer and Data Scientist, currently pursuing a Master's in Computer Engineering and Data Analysis. Specialized in full-stack application development and advanced data analysis with a passion for AI and emerging technologies."
+    "fr": "Ingénieur Full Stack et Data Scientist avec un Master en Ingénierie Informatique et Analyse de Données. Spécialisé dans le développement d'applications complètes et l'analyse de données avancée avec une passion pour l'IA et les technologies émergentes.",
+    "en": "Full Stack Engineer and Data Scientist with a Master's degree in Computer Engineering and Data Analysis. Specialized in full-stack application development and advanced data analysis with a passion for AI and emerging technologies."
   },
   "interests": {
     "fr": "Dans mon temps libre, j'explore continuellement les dernières tendances technologiques, j'expérimente avec de nouveaux langages de programmation et frameworks, et je participe activement aux communautés tech. Je suis particulièrement passionné par l'IA, l'optimisation d'architectures système pour la scalabilité, et la contribution aux projets open-source.",
