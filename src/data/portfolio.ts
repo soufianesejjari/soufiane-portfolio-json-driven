@@ -39,7 +39,7 @@ export const portfolioData = {
         "fr": "Ingénieur Full Stack",
         "en": "Full Stack Engineer"
       },
-      "company": "Neologic",
+      "company": "Neologix",
       "location": "Fès, Maroc",
       "period": {
         "fr": "Juin 2025 - Présent",
@@ -61,7 +61,7 @@ export const portfolioData = {
         "fr": "Stagiaire Ingénieur Full Stack",
         "en": "Full Stack Engineer Intern"
       },
-      "company": "Neologic",
+      "company": "Neologix",
       "location": "Fès, Maroc",
       "period": {
         "fr": "Juillet 2023 - Juin 2025",
@@ -207,7 +207,7 @@ export const portfolioData = {
   ],
   "projects": [
     {
-      "img": "https://huggingface.co/spaces/Soufianesejjari/ibuilder/resolve/main/static/logo.png",
+      "img": "https://github.com/soufianesejjari/soufianesejjari/blob/main/image.png?raw=true",
       "title": "iBuilder: AI Resume to Profile Extractor",
       "description": {
         "fr": "Une application alimentée par l'IA pour extraire automatiquement des profils professionnels à partir de CV PDF. Elle utilise des LLMs via Groq pour analyser le contenu des CV et générer des données structurées pour les portfolios et sites web professionnels.",
@@ -218,7 +218,7 @@ export const portfolioData = {
       "demo_url": "https://huggingface.co/spaces/Soufianesejjari/ibuilder"
     },
     {
-      "img": "https://raw.githubusercontent.com/soufianesejjari/Reel_time_sentiment_analyses_kafkaSpark/main/streamlit-app/static/logo.png",
+      "img": "https://github.com/soufianesejjari/soufianesejjari/blob/main/kafkaspark.png?raw=true",
       "title": "Real-time Sentiment Analysis with Kafka & Spark",
       "description": {
         "fr": "Un système de traitement de données en temps réel qui récupère des données d'APIs (Hespress, Twitter, YouTube), les envoie à un serveur Kafka, les consomme avec Spark Streaming pour l'analyse, et stocke les résultats dans MongoDB pour la visualisation.",
@@ -229,7 +229,7 @@ export const portfolioData = {
       "demo_url": "https://github.com/soufianesejjari/Reel_time_sentiment_analyses_kafkaSpark"
     },
     {
-      "img": "https://avatars.githubusercontent.com/u/121774221?s=200&v=4",
+      "img": "https://github.com/soufianesejjari/soufianesejjari/blob/main/classEYelogo.png?raw=true",
       "title": "Class-Eye Detection",
       "description": {
         "fr": "Un projet collaboratif axé sur la détection et la classification des maladies oculaires à partir d'images médicales. Le système utilise des modèles d'apprentissage profond pour identifier les conditions et assister dans le diagnostic ophtalmique.",
