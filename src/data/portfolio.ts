@@ -18,7 +18,11 @@ export const portfolioData = {
       {
         "name": "GitHub",
         "url": "https://github.com/soufianesejjari/"
-      }
+      },
+      {
+        "name": "HuggingFace",
+        "url": "https://huggingface.co/Soufianesejjari"
+      },
     ]
   },
   "summary": {
