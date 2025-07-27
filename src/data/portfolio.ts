@@ -1,4 +1,4 @@
-export const portfolioData = {
+export const portfolioData =  {
   "portfolioData": {
     "personalInfo": {
       "name": "Najat Zaidane",
@@ -290,4 +290,43 @@ export const portfolioData = {
       "strengths": "Strengths"
     }
   }
-}
+};
+
+export const translations = {
+  fr: {
+    about: "À propos",
+    experience: "Expérience",
+    education: "Formation",
+    skills: "Compétences",
+    projects: "Projets",
+    certifications: "Certifications",
+    contact: "Contact",
+    downloadCV: "Télécharger CV",
+    viewProject: "Voir le projet",
+    sourceCode: "Code source",
+    demo: "Démo",
+    currentlyLookingFor: "Recherche actuellement",
+    internshipPosition: "de nouvelles opportunités",
+    getInTouch: "Contactez-moi",
+    languages: "Langues",
+    strengths: "Points forts"
+  },
+  en: {
+    about: "About",
+    experience: "Experience",
+    education: "Education",
+    skills: "Skills",
+    projects: "Projects",
+    certifications: "Certifications",
+    contact: "Contact",
+    downloadCV: "Download CV",
+    viewProject: "View Project",
+    sourceCode: "Source Code",
+    demo: "Demo",
+    currentlyLookingFor: "Currently looking for",
+    internshipPosition: "new opportunities",
+    getInTouch: "Get in touch",
+    languages: "Languages",
+    strengths: "Strengths"
+  }
+};
