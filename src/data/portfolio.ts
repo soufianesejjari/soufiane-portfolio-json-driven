@@ -122,12 +122,12 @@ export const portfolioData = {
   "education": [
     {
       "degree": {
-        "fr": "Master Ingénierie Informatique et Analyse de Données - M2",
-        "en": "Master in Computer Engineering and Data Analysis - M2"
+        "fr": "Master Ingénierie Informatique et Analyse de Données",
+        "en": "Master in Computer Engineering and Data Analysis"
       },
       "institution": "Faculté des sciences, Université Chouaib Doukali",
       "location": "El Jadida, Maroc",
-      "period": "2023 - Présent"
+      "period": "2023 - 2025"
     },
     {
       "degree": {
@@ -415,7 +415,7 @@ export const translations = {
     sourceCode: "Code source",
     demo: "Démo",
     currentlyLookingFor: "Recherche actuellement",
-    internshipPosition: "un stage de fin d'études",
+    internshipPosition: "de nouvelles opportunités",
     getInTouch: "Contactez-moi",
     languages: "Langues",
     strengths: "Points forts"
@@ -433,7 +433,7 @@ export const translations = {
     sourceCode: "Source Code",
     demo: "Demo",
     currentlyLookingFor: "Currently looking for",
-    internshipPosition: "an end-of-studies internship",
+    internshipPosition: "new opportunities",
     getInTouch: "Get in touch",
     languages: "Languages",
     strengths: "Strengths"
