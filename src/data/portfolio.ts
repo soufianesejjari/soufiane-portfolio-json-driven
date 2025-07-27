@@ -418,8 +418,8 @@ export const translations = {
     viewProject: "Voir le projet",
     sourceCode: "Code source",
     demo: "Démo",
-    currentlyLookingFor: "Recherche actuellement",
-    internshipPosition: "de nouvelles opportunités",
+    currentlyLookingFor: "Ouvert aux collaborations",
+    internshipPosition: "collaborations et projets intéressants",
     getInTouch: "Contactez-moi",
     languages: "Langues",
     strengths: "Points forts"
@@ -436,8 +436,8 @@ export const translations = {
     viewProject: "View Project",
     sourceCode: "Source Code",
     demo: "Demo",
-    currentlyLookingFor: "Currently looking for",
-    internshipPosition: "new opportunities",
+    currentlyLookingFor: "Open to collaborations",
+    internshipPosition: "collaborations and interesting projects",
     getInTouch: "Get in touch",
     languages: "Languages",
     strengths: "Strengths"
