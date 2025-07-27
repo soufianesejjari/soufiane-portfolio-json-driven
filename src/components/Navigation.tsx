@@ -3,6 +3,7 @@ import { LanguageToggle } from "./LanguageToggle";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import { Logo } from "./Logo";
 
 export const Navigation = () => {
   const { t } = useLanguage();
@@ -30,9 +31,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="text-2xl font-bold">
-            <span className="bg-text-gradient bg-clip-text text-transparent">
-              SS
-            </span>
+            <Logo />
           </div>
 
           {/* Desktop Navigation */}
